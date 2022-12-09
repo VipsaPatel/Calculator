@@ -1,0 +1,85 @@
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgba(50, 49, 49, 0.904);
+    height: 160px;
+    width: 235px;
+    margin: auto;
+    border-radius: 18px;
+}
+
+.numberbutton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  rgb(167, 167, 192);
+    color: white;
+    padding-left: 10px;
+    padding-right: 27px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.my{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:  rgb(167, 167, 192);
+    color: white;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+
+.numberbutton:hover{
+    color: rgb(249, 249, 249);
+    background-color: rgba(235, 118, 68, 0.763);
+}
+
+.numberbutton:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(216, 211, 211);
+}
+
+.myalterbuttons{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 36px;
+    height: 21px;
+    margin: 1px;
+    background-color: rgba(235, 118, 68, 0.763);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+
+}
+
+.myalterbuttons:hover{
+    background-color:  rgb(167, 167, 192);
+    color: white;
+}
+
+
+.myalterbuttons:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(216, 211, 211);
+}
+
+.myc{
+    background-color: rgba(246, 51, 51, 0.699);
+}
+
+#displybox{
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
